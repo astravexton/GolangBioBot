@@ -63,7 +63,7 @@ func main() {
 			continue
 		}
 
-		if message.Text != "" {
+		if message.Text == "" {
 			continue
 		}
 
